@@ -1,2 +1,2 @@
 # saureus-report
-Staphylococcus aureus wgMLST schema report.
+_Staphylococcus aureus_ wgMLST schema report.
