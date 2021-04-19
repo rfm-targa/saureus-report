@@ -1,20 +1,21 @@
 
-        <!DOCTYPE html>
-        <html lang="en">
-            <head>
-                <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Schema Evaluator - Individual Analysis</title>
-            </head>
-            <body style="background-color: #f6f6f6">
-                <noscript> You need to enable JavaScript to run this app. </noscript>
-                <div id="root"></div>
-                <script> const _preComputedDataInd = {"data": {"allele_sizes": [216], "alleles_median": 216, "alleles_mode": 216, "locus_ids": ["GCF-000009005-protein1778_1"], "nr_alleles": 1, "size_range": "216-216"}, "locus_name": "GCF-000009005-protein1778"} </script>
-                <script> const _exceptions = [] </script>
-                <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 1, "Gene": "GCF-000009005-protein1778.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 1, "Total Invalid Alleles": 0} </script>
-                <script> const _msaData = "undefined" </script>
-                <script> const _phyloData = "undefined" </script>
-                <script src="./main_ind.js"></script>
-            </body>
-        </html>
-        
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [216, 216, 216], "alleles_median": 216, "alleles_mode": 216, "locus_ids": ["GCF-000009005-protein1778_1", "GCF-000009005-protein1778_S_GCF-003955945.1-ASM395594v1.fasta_17/04/2021T14:19:50_2", "GCF-000009005-protein1778_S_GCF-009857055.1-ASM985705v1.fasta_17/04/2021T14:19:58_3"], "nr_alleles": 3, "size_range": "216-216"}, "locus_name": "GCF-000009005-protein1778"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 3, "Gene": "GCF-000009005-protein1778.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 3, "Total Invalid Alleles": 0, "coding_strand": "antisense", "contig": "NC_007622.1", "genome": "GCF_000009005", "name": "ORF032", "proteome_bsr": "-", "proteome_gene_name": "-", "proteome_id": "-", "proteome_product": "-", "proteome_species": "-", "start": "1883937", "stop": "1884153", "url": "http://purl.uniprot.org/uniparc/UPI0000505BAF"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MLKNFNDIRKDKKVSLVDLADLLEVRYQTVADKINGVSDFKFGEALLIKNTYFPEYDIEFLFEKEKEKQTS"}, {"name": "2", "sequence": "MLTNLEKVRKQNKVSLVDIADLLEVRYQTVSDKINGISDFKFGEALLIKNTFFPEYEIEYLFSREKEKVTS"}, {"name": "3", "sequence": "MLKNFNDIRKDKKVSLVDLADLLEVRYQTVADKINGASDFKFGEALLIKNTYFPEYDIEFLFEKEKEKQTS"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((\n1_1\n:0.08242,\n3_3\n:0.08242):0.21018,\n2_2\n:0.29260);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

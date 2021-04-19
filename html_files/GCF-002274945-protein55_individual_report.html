@@ -1,20 +1,21 @@
 
-        <!DOCTYPE html>
-        <html lang="en">
-            <head>
-                <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Schema Evaluator - Individual Analysis</title>
-            </head>
-            <body style="background-color: #f6f6f6">
-                <noscript> You need to enable JavaScript to run this app. </noscript>
-                <div id="root"></div>
-                <script> const _preComputedDataInd = {"data": {"allele_sizes": [996], "alleles_median": 996, "alleles_mode": 996, "locus_ids": ["GCF-002274945-protein55_1"], "nr_alleles": 1, "size_range": "996-996"}, "locus_name": "GCF-002274945-protein55"} </script>
-                <script> const _exceptions = [] </script>
-                <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 1, "Gene": "GCF-002274945-protein55.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 1, "Total Invalid Alleles": 0} </script>
-                <script> const _msaData = "undefined" </script>
-                <script> const _phyloData = "undefined" </script>
-                <script src="./main_ind.js"></script>
-            </body>
-        </html>
-        
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [975, 975, 975, 975, 996], "alleles_median": 975, "alleles_mode": 975, "locus_ids": ["GCF-002274945-protein55_1", "GCF-002274945-protein55_S_GCF-000013465.1-ASM1346v1.fasta_17/04/2021T18:50:59_2", "GCF-002274945-protein55_S_GCF-001641045.1-ASM164104v1.fasta_17/04/2021T18:51:14_3", "GCF-002274945-protein55_S_GCF-002000685.1-ASM200068v1.fasta_17/04/2021T18:51:17_4", "GCF-002274945-protein55_S_GCF-010669265.1-ASM1066926v1.fasta_17/04/2021T18:51:58_5"], "nr_alleles": 5, "size_range": "975-996"}, "locus_name": "GCF-002274945-protein55"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 5, "Gene": "GCF-002274945-protein55.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 5, "Total Invalid Alleles": 0, "coding_strand": "antisense", "contig": "NZ_LLBQ01000081.1", "genome": "GCF_002274945", "name": "transfer complex protein TraA", "proteome_bsr": "-", "proteome_gene_name": "-", "proteome_id": "-", "proteome_product": "-", "proteome_species": "-", "start": "3291", "stop": "4287", "url": "http://purl.uniprot.org/uniparc/UPI000BA6CD51"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MDNITFRKRIEEYRKRSIEQKKYESKLNYQSRFGVKDDEVSTFNIKGIATDKKENKLVMAEDREDKQKVLLYANKDNDMYYLNSGSTYKEAVQNTFGNETNYEMVDDELFIYNSKNQALTNYDQLDEYHNRQKQLQYNTKLEQERKQRLTDTNKVSENAKEDLALSLGLTATALKGNINISNVEKVTDNESMVTIENEINGKSEHLISDFKDSFIEKAKEKLTVSPSMRLGFEEFKNASGQIAMGFTEFFGARYDESTLENDPKVVATEKGYSVSVFDKDGNKKDLTSADTFEEAVKLSKEMKHDNSLSRSEIELNQELHESTKRRLYYYE"}, {"name": "2", "sequence": "MDNITFRKRIEEYRKRSIEQKKYESKLNYQSRFGVKDDEVSTFNIKGIATDKKENKLVMAEDREDKQKVLLYANKDNDMYYLNSGSTYKEAVQNTFGNETNYEMVDDELFIYNSKNQALTNYDQLDEYHNRQKQLQYNTKLEQERKQRLTDTNKVSENAKEDLALSLGLTATALKGNINISNVEKVTDNESMVTIENEINGKSEHLISDFKDSFIEKAKEKLTVSPSMRLGFEEFKNASGQIAMGFTEFFGARYDESTLENDPKVVATEKGYSVSVFDKDGNKKDLTSADTFEEAVKLSKEMKHDNSLSRSEIELNQELE---KKKI----"}, {"name": "3", "sequence": "MDNITFRKRIEEYRKRSIEQKKYESKLNYQSRFGVKDDEVSTFNIKGIATDKKENKLVMAEDREDKQKVLLYANKDNDMYYLNSGSTYKEAVQNTFGNETNYEMVDDELFIYNSKNQALTNYDQLDEYHNRQKQLQYNTKLEQERKQRLTDTNKVSENAKEDLALSLGLTATALKGNINITDVEKVTDNESMVTLENEINGKSEHLISDFKDNFVEKAKEKLTVSPSMRLGFEEFKNASGQIAMGFTEFFGARYDESTLENDPKVVVTEKGYSVSVFDKDGNKKDLTSADTFEEAVKLSKEMKQDNSLSRSEIELNQELE---KKKI----"}, {"name": "4", "sequence": "MDNTAMRKLIEMYRAKERHQKEFQNKENYQSRFGIKDGELNNFNIKGIATDRKENKLVLVDDKQDQQKLLLYANKYNNLYYLNSGRNYSEAVHNTFGESTNYEVVDDNLFIYNSKKQSLTNYEQLSNYHNREKQLTYDQPLAEDRKYRLTDKTEVINHAKEDLAISLGLTATAFKGDINISDIEQVTDKESMVTIENEITGKSEHLISNFKDSFVDKVKDNLNVSPSVRLGFEEFKNASMQIAMGFTEFYGARYDESTLERDPKVVLTEKGYSLSTFDKEGNKTDIASADTFEEAVKLSKELKKEEFQSLDSHDLEHELQ---RNKG----"}, {"name": "5", "sequence": "MDNVTFRKRIEEYRKRSIEQKKYESKLNYQSRFGVKDDEVNTFNIKGIATDRKENKLVMAEDREDKQKVLLYANKDNDMYYLNSGSTYKEAVQNTFGNETNYEMVDDELFIYNSKNQALTNYDQLNEYHNRQKQLQYNTQLEQERKQRLTDTNKVSENAKEDLALSLGLTATALKGNINISSVEKVTDNESMVTLENEINGKSEHLISDFKDSFIEKAKEKLTVSPSMRLGFEELKNASGQIAMGFTEFFGARYDESTLENDPKVVATEKGYSVSVFDKDGNKKDLTSADTFEEAVKLSKEMKQDNSLSRSEIELNQELE---KKKI----"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((\n1_1\n:0.01457,\n2_2\n:0.01457):0.03848,\n3_3\n:0.05305):0.03544,\n5_5\n:0.08849):0.46564,\n4_4\n:0.55413);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            
